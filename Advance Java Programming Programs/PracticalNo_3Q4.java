@@ -11,8 +11,24 @@ public class PracticalNo_3Q4 extends Frame{
         setSize(700, 700);
         setVisible(true);
         setLayout(new BorderLayout(10, 10));
+
+        Button northButton = new Button("North");
+        add(northButton, BorderLayout.NORTH);
+
+        Button southButton = new Button("South");
+        add(southButton, BorderLayout.SOUTH);
+
+        Button eastButton = new Button("East");
+        add(eastButton, BorderLayout.EAST);
+
+        Button wesButton = new Button("West");
+        add(wesButton, BorderLayout.WEST);
+
+        Button centerButton = new Button("Center");
+        add(centerButton, BorderLayout.CENTER);
     }
     public static void main(String[] args) {
         System.out.println("Developer Harsh Moreshwar Kale!");
+        new PracticalNo_3Q4();
     }
 }
