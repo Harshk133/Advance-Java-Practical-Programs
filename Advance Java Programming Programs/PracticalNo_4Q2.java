@@ -4,7 +4,6 @@
 // Write a java program to display the output of the following code.
 
 import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
 
 public class PracticalNo_4Q2 extends JFrame {
@@ -47,6 +46,6 @@ public class PracticalNo_4Q2 extends JFrame {
 
     public static void main(String[] args) {
         System.out.println("Developer Harsh MOreshwar Kale!");
-        PracticalNo_4Q2 p = new PracticalNo_4Q2();
+        new PracticalNo_4Q2();
     }
 }
