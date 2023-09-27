@@ -1,8 +1,7 @@
 // Programmer: Harsh Moreshwar Kale
 // Created Date: 22/09/2023
-// Question 1: 
+// Question 2: 
 // Write a program using JPasswordField to set the password character as "#" instead of "*"!
-// Note 👉 I am using the `swing` because awt not working on my machine for that purpose I use Swing instead of applet! 
 
 import javax.swing.*;
 import java.awt.*;
