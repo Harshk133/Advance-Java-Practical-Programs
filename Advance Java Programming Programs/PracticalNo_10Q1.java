@@ -36,6 +36,7 @@ public class PracticalNo_10Q1 extends JFrame implements KeyListener {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
+                System.out.println("Developer Harsh Kale");
                 PracticalNo_10Q1 app = new PracticalNo_10Q1();
                 app.setVisible(true);
             }

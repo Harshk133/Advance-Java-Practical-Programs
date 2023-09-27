@@ -6,7 +6,6 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.awt.Robot;
 
 public class PracticalNo_10Q2 {
     public static void main(String[] args) {
@@ -28,6 +27,7 @@ public class PracticalNo_10Q2 {
         simulateButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
+                    System.out.println("Developer Harsh Kale");
                     Robot robot = new Robot();
                     // Press the space key to trigger event!!
                     robot.keyPress(KeyEvent.VK_A);

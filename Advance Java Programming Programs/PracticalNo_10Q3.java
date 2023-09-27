@@ -4,7 +4,6 @@
 // Develop a program which will implement special keys such as function keys and arrow keys.
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
 
 public class PracticalNo_10Q3 extends JFrame implements KeyListener {
@@ -46,6 +45,7 @@ public class PracticalNo_10Q3 extends JFrame implements KeyListener {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
+                System.out.println("Developer Harsh Kale");
                 PracticalNo_10Q3 example = new PracticalNo_10Q3();
                 example.setVisible(true);
             }
@@ -55,6 +55,6 @@ public class PracticalNo_10Q3 extends JFrame implements KeyListener {
     @Override
     public void keyTyped(KeyEvent e) {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'keyTyped'");
+        throw new UnsupportedOperationException("Unimplemented method 'keyTyped' done by harsh kale in future!");
     }
 }
